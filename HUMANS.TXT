@@ -1,0 +1,21 @@
+/* TEAM */
+Lead Developer: Charlie Seaman                           
+Site: www.casman.co.uk                                                   
+Location: Horley, UK.
+
+
+
+/* THANKS */
+Name: name or url				
+
+
+
+/* SITE */                       
+Last update: 2015/04/05 (YYYY/MM/DD)               
+Components: Bootstrap, HUMANS.TXT                  
+Software: Notepad++, Microsoft excel 2013.
+
+
+
+/* VERSION INFO */
+Bootstrap: 3.3.4
