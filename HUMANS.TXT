@@ -14,9 +14,9 @@ Name: name or url
 
 
 /* SITE */                       
-Last update: 2015/04/05 (YYYY/MM/DD)               
+Last update: 2017/10/23 (YYYY/MM/DD)               
 Components: Bootstrap, HUMANS.TXT                  
-Software: Notepad++, Microsoft excel 2013.
+Software: Notepad++, Microsoft Excel.
 
 
 
