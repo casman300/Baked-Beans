@@ -116,10 +116,20 @@ if ($result->num_rows > 0) {
         <tr><th scope="row">Brand</th><td><?php echo $row["brand"]?></td></tr>
         <tr><th scope="row">Shop</th><td><?php echo $row["shop"]?></td></tr>
         <tr><th scope="row">Price at purchase</th><td><?php echo $row["price"]?></td></tr>
-        <tr><th scope="row">weight of full can</th><td><?php echo $row["massfull"]?> g</td></tr>
+        <tr><th scope="row">Weight of full can</th><td><?php echo $row["massfull"]?> g</td></tr>
         <tr><th scope="row">Weight of empty can</th><td><?php echo $row["massempty"]?> g</td></tr>
-        <tr><th scope="row">weight of beans</th><td><?php echo $row["massbeans"]?> g</td></tr>
-        <tr><th scope="row">Percentage of beans to liquid</th><td><?php echo $row["beanstoliquid"]?></td></tr>
+        <?php $massbeans = $row["massbeans"]; ?>
+        <tr><th scope="row">Weight of beans</th><td><?php echo $massbeans; ?> g</td></tr>
+        <?php $massjuice = $row["massfull"] - $row["massempty"] - $row["massbeans"]?>
+        <tr><th scope="row">Weight of juice</th><td><?php echo $massjuice ?> g</td></tr>
+        <?php $perc = ($massbeans + $massjuice)/100; 
+              $percb = ceil($massbeans/$perc);
+              $percj = floor($massjuice/$perc);
+//       Dont have this stored yet
+//      <tr><th scope="row">Percentage of beans to liquid</th><td><?php echo $row["beanstoliquid"]?></td></tr>
+?>
+		<tr><th scope="row">Percentage of beans to liquid</th><td><?php echo $percb . ":" . $percj; ?></td></tr>
+
         <tr><th scope="row">Bean count</th><td><?php echo $row["beancount"]?></td></tr>
         <tr><th scope="row">Taste rating</th><td><?php echo $row["tasterating"]?></td></tr>
         <tr><th scope="row">Ingredients listed</th><td><?php echo $row["ingredientlist"]?>K</td></tr>
