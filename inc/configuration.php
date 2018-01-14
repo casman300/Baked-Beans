@@ -8,10 +8,17 @@ $host = "https://www.turbotas.co.uk";
 $basedir = "/webapps/beantest1";
 $URL = $host . $basedir;
 
+#debug Mode
+$debugmode = 0;
+//$debugmode = 1;
+
 # Include Directory
 $include = "inc/";
 
 # Database
 include $include . 'dbsettings.inc.php';
+
+# functions
+include $include . 'functions.inc.php';
 
 ?>
