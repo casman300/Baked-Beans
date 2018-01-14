@@ -165,7 +165,7 @@ if ($result->num_rows > 0) {
 		</div>
 	</div>
         
-    0 results, we don't have a recod of that test
+    0 results: We don't have a record of that test, or maybe it's not published yet.
     <?php
     }
 $conn->close();
