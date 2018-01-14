@@ -81,7 +81,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
 
-$sql = "SELECT * FROM beandata where id=" . $id;  //limit one to get max one record?
+$sql = "SELECT * FROM beandata where id=" . $id . " AND published=1";  //limit one to get max one record?
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {

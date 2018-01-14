@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Jan 13, 2018 at 07:58 PM
+-- Generation Time: Jan 14, 2018 at 03:11 PM
 -- Server version: 5.5.58
 -- PHP Version: 5.6.32
 
@@ -50,7 +50,8 @@ CREATE TABLE `beandata` (
   `pullring` int(11) DEFAULT NULL COMMENT 'Is it a pullring can?',
   `bestbeforedate` date DEFAULT NULL COMMENT 'Best before date',
   `purchasedate` date DEFAULT NULL COMMENT 'Puchase date',
-  `comments` varchar(200) DEFAULT NULL COMMENT 'Comments'
+  `comments` varchar(200) DEFAULT NULL COMMENT 'Comments',
+  `published` tinyint(4) DEFAULT NULL COMMENT '1 for published'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
