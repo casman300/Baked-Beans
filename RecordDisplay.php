@@ -71,7 +71,7 @@
 
 include 'inc/configuration.php';
 
-$id = htmlspecialchars($_GET["id"]);
+$id = intval(htmlspecialchars($_GET["id"]));
 
 // Create connection
 $conn = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
