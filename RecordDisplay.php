@@ -127,7 +127,10 @@ if ($result->num_rows > 0) {
         <tr><th scope="row">Pull Ring Tin?</th><td><?php if ($row["pullring"] = 1) { echo "Yes"; } else { echo "No";} ?></td></tr>
         <tr><th scope="row">Purchase Date</th><td><?php echo $row["purchasedate"]?></td></tr>
         <tr><th scope="row">Best Before Date</th><td><?php echo $row["bestbeforedate"]?></td></tr>
-        <tr><th scope="row">Length of best before date</th><td><?php echo ($row["bestbeforedate"] - $row["purchasedate"])?></td></tr>
+        <tr><th scope="row">Length of best before date</th><td><?php
+        $days = bbdaysremaining($row["purchasedate"], $row["bestbeforedate"]);
+        if ($days[0] > 0) {
+            echo $days[0] . " days"; } else if ($debugmode == 1){ echo $days[1]; } ?></td></tr>
         <tr><th scope="row">Extra Info</th><td><?php echo $row["comments"]?></td></tr>
       </tbody>
     </table>	
