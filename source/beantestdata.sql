@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Jan 13, 2018 at 07:26 PM
+-- Generation Time: Jan 14, 2018 at 03:11 PM
 -- Server version: 5.5.58
 -- PHP Version: 5.6.32
 
@@ -50,18 +50,20 @@ CREATE TABLE `beandata` (
   `pullring` int(11) DEFAULT NULL COMMENT 'Is it a pullring can?',
   `bestbeforedate` date DEFAULT NULL COMMENT 'Best before date',
   `purchasedate` date DEFAULT NULL COMMENT 'Puchase date',
-  `comments` varchar(200) DEFAULT NULL COMMENT 'Comments'
+  `comments` varchar(200) DEFAULT NULL COMMENT 'Comments',
+  `published` tinyint(4) DEFAULT NULL COMMENT '1 for published'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `beandata`
 --
 
-INSERT INTO `beandata` (`id`, `testdate`, `barcode`, `batch`, `productmass`, `productname`, `dataurl`, `brand`, `shop`, `price`, `massfull`, `massempty`, `massbeans`, `beanstoliquid`, `beancount`, `tasterating`, `ingredientlist`, `sauceviscosity`, `pullring`, `bestbeforedate`, `purchasedate`, `comments`) VALUES
-(1, '2018-01-17', '5011835061116', 'B1U V3 6291 09:07 12.7', 400, 'Whole Earth Saucy Organic Baked Beans', NULL, 'Whole Earth', 'Tesco', '1.45', '447', '66', '256', '1', 206, 5, 'organic blah blah', 6, 1, '2018-10-31', '2017-01-31', 'test'),
-(2, '2018-01-17', '5000169635490', 'B1U V3 6291 09:07 12.7', 400, 'Waitrose Duchy Organic Baked Beans in Tomato Sauce', NULL, 'Waitrose', 'Waitrose', '2.11', '490', '45', '143', NULL, 404, 5, 'organic haricot beans (49%), water, oranic tomato puree (21%), organic sugar, maize starch, sea salt.....', 4, 1, '2019-01-31', '2017-01-31', 'test'),
-(3, '2017-10-25', '5000169061046', 'B1U V3 6291 09:07 12.7', 400, 'Waitrose Essential Baked bean in tomato sauce', NULL, 'Waitrose', 'Waitrose', '1.01', '446', '36', '223', NULL, 666, 4, 'beans, tomatoes blah blahorganic haricot beans (49%), water, oranic tomato puree (21%), organic sugar, maize starch, sea salt.....organic haricot beans (49%), water, oranic tomato puree (21%), organic', 4, 1, '2019-01-31', '2017-01-31', 'test'),
-(4, '2018-01-15', '5000232902450', 'B1U V3 6291 09:07 12.7', 410, 'Branston Baked Beans', NULL, 'Branston', 'Coop', '0.76', '476', '67', '232', NULL, 545, 4, 'beans.  tomatos sugar', 2, 0, '2019-01-31', '2016-01-31', 'test');
+INSERT INTO `beandata` (`id`, `testdate`, `barcode`, `batch`, `productmass`, `productname`, `dataurl`, `brand`, `shop`, `price`, `massfull`, `massempty`, `massbeans`, `beanstoliquid`, `beancount`, `tasterating`, `ingredientlist`, `sauceviscosity`, `pullring`, `bestbeforedate`, `purchasedate`, `comments`, `published`) VALUES
+(1, '2018-01-17', '5011835061116', 'B1U V3 6291 09:07 12.7', 400, 'Whole Earth Saucy Organic Baked Beans', NULL, 'Whole Earth', 'Tesco', '1.45', '447', '66', '256', '1', 206, 5, 'organic blah blah', 6, 1, '2018-10-31', '2017-01-31', 'test', 1),
+(2, '2018-01-17', '5000169635490', 'B1U V3 6291 09:07 12.7', 400, 'Waitrose Duchy Organic Baked Beans in Tomato Sauce', NULL, 'Waitrose', 'Waitrose', '2.11', '490', '45', '143', NULL, 404, 5, 'organic haricot beans (49%), water, oranic tomato puree (21%), organic sugar, maize starch, sea salt.....', 4, 1, NULL, '2017-01-31', 'test', 1),
+(3, '2017-10-25', '5000169061046', 'B1U V3 6291 09:07 12.7', 400, 'Waitrose Essential Baked bean in tomato sauce', NULL, 'Waitrose', 'Waitrose', '1.01', '446', '36', '223', NULL, 666, 4, 'beans, tomatoes blah blahorganic haricot beans (49%), water, oranic tomato puree (21%), organic sugar, maize starch, sea salt.....organic haricot beans (49%), water, oranic tomato puree (21%), organic', 4, 1, '2019-01-31', NULL, 'test', 1),
+(4, '2018-01-15', '5000232902450', 'B1U V3 6291 09:07 12.7', 410, 'Branston Baked Beans', NULL, 'Branston', 'Coop', '0.76', '476', '67', '232', NULL, 545, 4, 'beans.  tomatos sugar', 2, 0, '2016-01-31', '2017-01-31', 'test', 1),
+(5, '2017-04-12', '5000232907865', 'B1U V3 6291 09:07 12.8', 410, 'Sainsbury Baked Beans', NULL, 'Sainsbury', 'Sainsbury', '0.76', '476', '67', '232', NULL, 544, 4, 'beans.  tomatos sugar.  Lots of each', 2, 0, '2016-01-12', '2017-01-15', 'test', NULL);
 
 --
 -- Indexes for dumped tables
@@ -81,7 +83,7 @@ ALTER TABLE `beandata`
 -- AUTO_INCREMENT for table `beandata`
 --
 ALTER TABLE `beandata`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'id', AUTO_INCREMENT=5;COMMIT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'id', AUTO_INCREMENT=6;COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
