@@ -1,7 +1,7 @@
 <?php 
 # this is an initial test file
 
-include 'inc/configuration.php';
+include '../inc/configuration.php';
 
 // Create connection
 $conn = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
