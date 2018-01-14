@@ -107,9 +107,9 @@ if ($result->num_rows > 0) {
 <div class="col-xs-12">
 <table class="table table-striped table-bordered">
       <tbody>
-        <tr><th scope="row">ID</th><td><?php echo $row["id"]?></td></tr>
-        <tr><th scope="row">Test Date</th><td><?php echo $row["testdate"]?></td></tr>
-        <tr><th scope="row">Barcode</th><td><?php echo $row["barcode"]?></td></tr>
+        <tr><th scope="row">ID</th><td><?php echo $row["id"]; ?></td></tr>
+        <tr><th scope="row">Test Date</th><td><?php echo $row["testdate"]; ?></td></tr>
+        <tr><th scope="row">Barcode</th><td><?php echo $row["barcode"]; ?></td></tr>
         <tr><th scope="row">Batch</th><td><?php echo $row["batch"]?></td></tr>
         <tr><th scope="row">Mass (from packaging)</th><td><?php echo $row["productmass"]?> g</td></tr>      
         <tr><th scope="row">Data URL</th><td><?php echo $row["dataurl"]?></td></tr>
@@ -126,8 +126,8 @@ if ($result->num_rows > 0) {
               $percb = ceil($massbeans/$perc);
               $percj = floor($massjuice/$perc);
 //       Dont have this stored yet
-//      <tr><th scope="row">Percentage of beans to liquid</th><td><?php echo $row["beanstoliquid"]?></td></tr>
-?>
+//      <tr><th scope="row">Percentage of beans to liquid</th><td><?php echo $row["beanstoliquid"]
+        ?>
 		<tr><th scope="row">Percentage of beans to liquid</th><td><?php echo $percb . ":" . $percj; ?></td></tr>
 
         <tr><th scope="row">Bean count</th><td><?php echo $row["beancount"]?></td></tr>
@@ -170,10 +170,6 @@ if ($result->num_rows > 0) {
     }
 $conn->close();
 ?>
-
-
-
-
 	
     <footer>
                     <p class="copyright text-muted">Copyright &copy; Charlie Seaman 2018 <a href="../humans.txt"><img src="../img/humanstxt.gif" alt="Humans.txt" width="88" height="31"></a></p>
