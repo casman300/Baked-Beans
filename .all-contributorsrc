@@ -22,6 +22,15 @@
       "contributions": [
         "maintenance"
       ]
+    },
+    {
+      "login": "atayl16",
+      "name": "Alisha Taylor",
+      "avatar_url": "https://avatars.githubusercontent.com/u/24377351?v=4",
+      "profile": "https://github.com/atayl16",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
