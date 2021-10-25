@@ -65,7 +65,7 @@
 					</ul>
 				
 				<h2>Can I help?</h2>
-					<p>Sure! You can go get my email address form the Contact page and drop me a line. All help is appreciated, whether you spot a spelling error or want to submit some data, just let us know.</p>
+					<p>Sure! You can go get my email address from the Contact page and drop me a line. All help is appreciated, whether you spot a spelling error or want to submit some data, just let us know.</p>
             </div>
         </div>
     </div>
