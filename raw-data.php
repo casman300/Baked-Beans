@@ -18,9 +18,9 @@
     <link href="css/clean-blog.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -55,14 +55,14 @@
                     </li>
 <!--                    <li>
                         <a href="graphs.html">Graphs</a>
-                    </li>
-                    <li>
-                        <a href="data-pages/index.html">Raw Data</a>
                     </li> -->
-                    <li>
-                        <a href="Analysis.html">Analysis Process</a>
-                    </li>
                     <li class="active">
+                        <a href="raw-data.html">Raw Data</a>
+                    </li>
+                    <li>
+                        <a href="analysis.html">Analysis Process</a>
+                    </li>
+                    <li>
                         <a href="contact.html">Contact</a>
                     </li>
                 </ul>
@@ -74,13 +74,88 @@
 
 <div class="container">
 <div class="page-header">
-  <h1>Contact</h1>
+  <h1>Individual Data <small>Blank Brand Beans</small></h1>
+</div>
+<div class="row">
+    <div class="col-xs-12">
+        <a href="#" class="thumbnail">
+            <img src="..." alt="...">
+        </a>
+        <a href="#" class="thumbnail">
+            <img src="..." alt="...">
+        </a>
+    </div>
 </div>
 <div class="row">
 <div class="col-xs-12">
-<p>Hi, this site was built by me Charlie Seaman. It was a personal project to try and identify the best baked beans. If you want to see my other projects you can visit my main website <a href="http://casman.co.uk">http://casman.co.uk</a>.</p>
-<p>All my social links are on my website linked above but you can also email me by solving a Captcha -> <a href="http://www.google.com/recaptcha/mailhide/d?k=01m_AlNCMPXZYFefeuvkfUuQ==&amp;c=WwxjQ6C-5sEI93Mu5gKdiQ4_kEakp2_SqAFk6zxhv64=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\07501m_AlNCMPXZYFefeuvkfUuQ\75\75\46c\75WwxjQ6C-5sEI93Mu5gKdiQ4_kEakp2_SqAFk6zxhv64\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address">Solve</a></p>
-<p>For more info on who and what made this possible you can view the <a href="HUMANS.TXT">HUMANS.TXT</a> doc.</p>
+<table class="table table-striped table-bordered">
+      <tbody>
+        <tr>
+          <th scope="row">ID</th>
+          <td>BLANK BLANK</td>
+        </tr>
+        <tr>
+          <th scope="row">Data URL</th>
+          <td>BLANK BLANK</td>
+        </tr>
+        <tr>
+          <th scope="row">Brand</th>
+          <td>BLANK BLANK</td>
+        </tr>
+        <tr>
+          <th scope="row">Shop</th>
+          <td>BLANK BLANK</td>
+        </tr>
+        <tr>
+          <th scope="row">Price at purchase</th>
+          <td>BLANK BLANK</td>
+        </tr>
+        <tr>
+          <th scope="row">weight of full can</th>
+          <td>BLANK BLANK</td>
+        </tr>
+        <tr>
+          <th scope="row">Weight of empty can</th>
+          <td>BLANK BLANK</td>
+        </tr>
+        <tr>
+          <th scope="row">weight of beans</th>
+          <td>BLANK BLANK</td>
+        </tr>
+        <tr>
+          <th scope="row">Percentage of beans to liquid</th>
+          <td>BLANK BLANK</td>
+        </tr>
+        <tr>
+          <th scope="row">Bean count</th>
+          <td>BLANK BLANK</td>
+        </tr>
+        <tr>
+          <th scope="row">Taste rating</th>
+          <td>BLANK BLANK</td>
+        </tr>
+        <tr>
+          <th scope="row">Ingredients listed</th>
+          <td>BLANK BLANK</td>
+        </tr>
+        <tr>
+          <th scope="row">Sauce Viscosity</th>
+          <td>BLANK BLANK</td>
+        </tr>
+        <tr>
+          <th scope="row">Pull Ring Tin?</th>
+          <td>BLANK BLANK</td>
+        </tr>
+        <tr>
+          <th scope="row">Length of best before date</th>
+          <td>BLANK BLANK</td>
+        </tr>
+        <tr>
+          <th scope="row">Extra Info</th>
+          <td>BLANK BLANK</td>
+        </tr>
+      </tbody>
+    </table>
 </div>
 </div>	
 </div>	

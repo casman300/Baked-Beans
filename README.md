@@ -1,5 +1,32 @@
-# Baked-Beans
-The statistical analysis of baked beans
+# Baked-Beans - *The statistical analysis of baked beans*
 
-[![buddy pipeline](https://app.buddy.works/casman/baked-beans/pipelines/pipeline/69703/badge.svg?token=2dfc40a67a3bf3b2e4497cb0b81380a5bac04e9c6899540089399dc5f37353d5 "buddy pipeline")](https://app.buddy.works/casman/baked-beans/pipelines/pipeline/69703)
-[![buddy pipeline](https://app.buddy.works/casman/baked-beans/pipelines/pipeline/69698/badge.svg?token=2dfc40a67a3bf3b2e4497cb0b81380a5bac04e9c6899540089399dc5f37353d5 "buddy pipeline")](https://app.buddy.works/casman/baked-beans/pipelines/pipeline/69698)
+Contributors: <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
+Buddy Pipeline Status: [![buddy pipeline](https://app.buddy.works/casman/baked-beans/pipelines/pipeline/69703/badge.svg?token=d342c18d82f8d23eb914355cabc8c737b8d249ccd964e88859fa87d54774eeb5 "buddy pipeline")](https://app.buddy.works/casman/baked-beans/pipelines/pipeline/69703)
+
+This is still a very much work in progress project! Lots of work is required to get the website running correctly and setting up a back-end database before we can use it to start comparing data.
+
+We also need to collect data!! We sort of have a standardized produce but need to test this.
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="http://www.casman.co.uk"><img src="https://avatars.githubusercontent.com/u/2879023?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Charlie Seaman</b></sub></a><br /><a href="#maintenance-casman300" title="Maintenance">🚧</a></td>
+    <td align="center"><a href="https://github.com/turbotas"><img src="https://avatars.githubusercontent.com/u/12105630?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Turbo Tas</b></sub></a><br /><a href="#maintenance-turbotas" title="Maintenance">🚧</a></td>
+    <td align="center"><a href="https://github.com/atayl16"><img src="https://avatars.githubusercontent.com/u/24377351?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Alisha Taylor</b></sub></a><br /><a href="https://github.com/casman300/Baked-Beans/issues?q=author%3Aatayl16" title="Bug reports">🐛</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
