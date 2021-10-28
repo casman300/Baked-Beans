@@ -4,8 +4,8 @@
 # sensitive file are #included.
 
 # host and base URL etc
-$host = "https://www.turbotas.co.uk";
-$basedir = "/webapps/beantest1";
+$host = "https://baked-bean.co.uk";
+$basedir = "";
 $URL = $host . $basedir;
 
 #debug Mode
