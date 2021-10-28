@@ -16,13 +16,12 @@
     <div class="page-header">
       <h1>Contact</h1>
     </div>
-    <div class="row">
-    <div class="col-xs-12">
-    <p>Hi, this site was built by me, Charlie Seaman. It was a personal project to try and identify the best baked beans. If you want to see my other projects, you can visit my main website <a href="https://casman.co.uk">http://casman.co.uk</a>.</p>
-    <p>All of my social links are on my website linked above or you can email us at help@baked-bean.co.uk</p>
-    <p>For more info on who and what made this possible, you can view the <a href="HUMANS.TXT">HUMANS.TXT</a> doc.</p>
-    </div>
-    </div>	
+
+    <p>Hey! Baked Bean started out as a personal research project to delve in the unnecessary detail about baked beans and learn PHP. Well after 4 years I sort of know what I'm doing with PHP but we haven't done any research! (I know the irony of a research project that's not done any.... well... research.)</p>
+    <p>Its finally time to knuckle down, change the batteries in the PH meter and crack open an tin or two of beans! Any suggestions to more logical steps to take in the analysis process would be great and if you think we are missing some useful measurements feel free to suggest them as well.</p>
+
+    <p>If you would like more details on how to get involved or if you have any suggestions you can email us at: hello@baked-bean.co.uk or head over to GitHub and join the discussion.</p>
+
     </div>	
 
 	
