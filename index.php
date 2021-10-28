@@ -58,12 +58,14 @@
 						<li><strong>Length Of Best Before Date</strong> - Days left until best before on date of purchase. (In Days)</li>
 						<li><strong>Average individual bean weight</strong> - Weight of total washed beans divided by the amount of beans. (Weight In Grams)</li>
 						<li><strong>PH Level</strong> - The PH Level of the sauce and yes, we bought a PH meter just for this. (PH Level)</li>
-						<li><strong>Height Of Can</strong> - Well... we measure the height of the can. (Centimeters)</li>
-						<li><strong>Diameter Of Can</strong> - Is this a joke? It's just the can diameter at the widest point in CM. (Centimeters)</li>
-						<li><strong>Can Volume</strong> - This is more interesting... Some math with the width and height. (Centimeters Cubed)</li>
+						<li><strong>Height Of Can</strong> - Well... we measure the height of the can. (Centimetres)</li>
+						<li><strong>Diameter Of Can</strong> - Is this a joke? It's just the can diameter at the widest point in CM. (Centimetres)</li>
+						<li><strong>Can Volume</strong> - This is more interesting... Some maths with the width and height. (Centimetres Cubed)</li>
 						<li><strong>Pictures Of The Tin & Contents</strong> - Pictures of the tin, ingredients and contents. (Images)</li>
 					</ul>
-				
+				<h2>When did this start?</h2>
+                    <p>We dreamt up this project way back in 2017 as more of a funny concept/project but its now time to crash on and do some research.</p>
+
 				<h2>Can I help?</h2>
 					<p>Sure! You can go get my email address form the Contact page and drop me a line. All help is appreciated, whether you spot a spelling error or want to submit some data, just let us know.</p>
             </div>
