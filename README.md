@@ -9,6 +9,19 @@ This is still a very much work in progress project! Lots of work is required to 
 
 We also need to collect data!! We sort of have a standardized produce but need to test this.
 
+
+## Local Development Instructions
+
+When you fork or download the project to work on locally there will be the dbsettings.php and config.php files missing from the includes directory. The are demo versions of each so you will have to copy and rename the demo files and update the settings to match your Local setup. There are also the blank & demo SQL files in the documentation area for experimenting with locally.
+
+If you need help getting setup you can reach out to us on the discussions tab on GitHub.
+
+
+## Buddy Pipeline
+
+We use Buddy to handle the build pipeline for continues integration. This is triggered by new commits to the Main branch. Currently This just uploads the files to FTP and completes some SSL and page tests after deployment. The plan will be to add in minification for CSS and JS files as well as images to help optimise page speeds and to also do some automated testing to make sure new developments haven't broken anything! (Looking at you Microsoft and you case insensitivity!)
+
+
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
