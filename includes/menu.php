@@ -18,12 +18,9 @@
                 <li class="<?php if ($pagename == "Home/About") {echo " active";}?>">
                     <a href="index.php">Home / About</a>
                 </li>
-                <!--<li>
-                    <a href="graphs.php">Graphs</a>
+                <li class="<?php if ($pagename == "Data List") {echo " active";}?>">
+                    <a href="data-list.php">Raw Data List</a>
                 </li>
-                <li>
-                    <a href="raw-data.php">Raw Data</a>
-                </li>--->
                 <li class="<?php if ($pagename == "Analysis") {echo " active";}?>">
                     <a href="analysis.php">Analysis Process</a>
                 </li>

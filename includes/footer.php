@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <p class="copyright text-muted"><a href="https://github.com/casman300/Baked-Beans">View project on GitHub</a></p>
-                <p class="copyright text-muted">&copy; Copyright 2021 - Charlie Seaman & Additional Contributors</p>
+                <p class="copyright text-muted">&copy; Copyright 2022 - Charlie Seaman & Additional Contributors</p>
             </div>
         </div>
     </div>
