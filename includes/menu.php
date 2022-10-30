@@ -19,13 +19,10 @@
                     <a href="index.php">Home / About</a>
                 </li>
                 <li class="<?php if ($pagename == "Data List") {echo " active";}?>">
-                    <a href="data-list.php">Raw Data List</a>
+                    <a href="RecordList.php">Test Data List</a>
                 </li>
                 <li class="<?php if ($pagename == "Analysis") {echo " active";}?>">
                     <a href="analysis.php">Analysis Process</a>
-                </li>
-                <li>
-                    <a href="https://github.com/casman300/Baked-Beans">View on GitHub</a>
                 </li>
                 <li class="<?php if ($pagename == "Contact") {echo " active";}?>">
                     <a href="contact.php">Contact</a>
