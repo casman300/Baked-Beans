@@ -64,10 +64,10 @@
 						<li><strong>Pictures Of The Tin & Contents</strong> - Pictures of the tin, ingredients and contents. (Images)</li>
 					</ul>
 				<h2>When did this start?</h2>
-                    <p>We dreamt up this project way back in 2017 as more of a funny concept/project but its now time to crash on and do some research.</p>
+                    <p>We dreamt up this project way back in 2017 as more of a funny concept/project but its now time to crack on and do some research.</p>
 
 				<h2>Can I help?</h2>
-					<p>Sure! You can go get my email address form the Contact page and drop me a line. All help is appreciated, whether you spot a spelling error or want to submit some data, just let us know.</p>
+					<p>Sure! You can go get our email address from the Contact page and drop me a line. All help is appreciated, whether you spot a spelling error or want to submit some data, just let us know.</p>
             </div>
         </div>
     </div>
