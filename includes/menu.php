@@ -1,35 +1,16 @@
-<!-- Navigation -->
-<nav class="navbar navbar-default navbar-custom navbar-fixed-top<?php if ($pagename !== "Home/About") {echo " navbar-dark";}?>">
-    <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="index.php">Baked-Bean</a>
-        </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li class="<?php if ($pagename == "Home/About") {echo " active";}?>">
-                    <a href="index.php">Home / About</a>
-                </li>
-                <li class="<?php if ($pagename == "Data List") {echo " active";}?>">
-                    <a href="RecordList.php">Test Data List</a>
-                </li>
-                <li class="<?php if ($pagename == "Analysis") {echo " active";}?>">
-                    <a href="analysis.php">Analysis Process</a>
-                </li>
-                <li class="<?php if ($pagename == "Contact") {echo " active";}?>">
-                    <a href="contact.php">Contact</a>
-                </li>
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
+<nav class="navbar navbar-expand-lg bg-light navbar-custom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.php">Baked-Bean</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link<?php if ($pagename == "Home/About") {echo " active";}?>" href="index.php">Home/About</a>
+        <a class="nav-link<?php if ($pagename == "Data List") {echo " active";}?>" href="RecordList.php">Test Data List</a>
+        <a class="nav-link<?php if ($pagename == "Analysis") {echo " active";}?>" href="analysis.php">Analysis Process</a>
+        <a class="nav-link<?php if ($pagename == "Contact") {echo " active";}?>" href="contact.php">Contact</a>
+      </div>
     </div>
-    <!-- /.container -->
+  </div>
 </nav>

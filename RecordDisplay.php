@@ -42,7 +42,7 @@ if ($result->num_rows > 0) {
     
     <div class="container">
 <div class="page-header">
-  <h1>Individual Results <small><?php echo $row["productname"]?></small></h1>
+  <h1>Individual Results <small class="text-muted"><?php echo $row["productname"]?></small></h1>
 </div>
 	<div class="row">
 		<div class="col-xs-12">
@@ -76,7 +76,7 @@ if ($result->num_rows > 0) {
         <?php $perc = ($massbeans + $massjuice)/100; 
               $percb = ceil($massbeans/$perc);
               $percj = floor($massjuice/$perc);
-//       Dont have this stored yet
+//       Don't have this stored yet
 //      <tr><th scope="row">Percentage of beans to liquid</th><td><?php echo $row["beanstoliquid"]
         ?>
 		<tr><th scope="row">Percentage of beans to liquid</th><td><?php echo $percb . "% / " . $percj; ?>%</td></tr>
@@ -101,11 +101,13 @@ if ($result->num_rows > 0) {
 <?php
     } else { ?>
         
-        <div class="container">
+    <div class="container">
         <div class="page-header">
-        <h1>Individual Results <small>Test Not Found!</small></h1>
-</div>  
-    0 results: We don't have a record of that test, or maybe it's not published yet.
+            <h1>Individual Results <small class="text-muted">Test not found</small></h1>
+        </div>
+        <p>0 results: This test either does not exist or has not been published yet.</p>
+    </div>
+
     <?php
     }
 $conn->close();

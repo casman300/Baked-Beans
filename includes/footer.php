@@ -1,19 +1,12 @@
 <footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <p class="copyright text-muted"><a href="https://github.com/casman300/Baked-Beans">View project on GitHub</a></p>
-                <p class="copyright text-muted">&copy; Copyright 2022 - Charlie Seaman & Additional Contributors</p>
-            </div>
-        </div>
+    <div class="container-fluid">
+        <p class="copyright text-muted small my-1"><a href="https://github.com/casman300/Baked-Beans" target="_blank">View project on GitHub</a></p>
+        <p class="copyright text-muted small my-1">&copy; Copyright 2022 - Charlie Seaman & Additional Contributors</p>
     </div>
 </footer>
 
-<!-- jQuery -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
 <!-- Bootstrap Core JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 
-<!-- Custom Theme JavaScript -->
-<script src="assets/js/clean-blog.js"></script>
+<!-- Custom Theme JavaScript
+<script src="assets/js/clean-blog.js"></script> -->
