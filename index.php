@@ -21,8 +21,7 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <div class="site-heading">
-                        <h1>BAKED-BEAN</h1>
-                        <hr class="small">
+                        <h1>Baked-Bean</h1>
                         <span class="subheading"><strong>A statistical analysis of baked beans</strong></span>
 						<span class="subheading">Variables range from price to viscosity and everything in-between!</span>
                     </div>
