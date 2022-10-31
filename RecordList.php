@@ -73,7 +73,7 @@ if ($result->num_rows > 0) {
     ?>
     <div class="container">
     <div class="page-header">
-    <h1>Test List <small>All the tests - <?php echo $ordertxt ?></small></h1>
+    <h1>Test List <small class="text-muted">All the tests - <?php echo $ordertxt ?></small></h1>
     </div>
     <div class="row">
     <div class="col-xs-12">
@@ -101,22 +101,13 @@ if ($result->num_rows > 0) {
 <?php
     } else { ?>
         
-        <div class="container">
+    <div class="container">
         <div class="page-header">
-        <h1>Individual Results <small><?php echo $row["productname"]?></small></h1>
-</div>
-	<div class="row">
-		<div class="col-xs-12">
-			<a href="#" class="thumbnail">
-				<img src="..." alt="...">
-			</a>
-			<a href="#" class="thumbnail">
-				<img src="..." alt="...">
-			</a>
-		</div>
-	</div>
+            <h1>Test List <small class="text-muted">No tests found</small></h1>
+        </div>
+        <p>0 results: We don't have any tests to list, or maybe they are not published yet.</p>
+    </div>
         
-    0 results: We don't have any tests to list, or maybe it they are not published yet.
     <?php
     }
 $conn->close();

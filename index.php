@@ -14,21 +14,15 @@
         include('includes/menu.php');
     ?>
 
-    <!-- Page Header -->
-    <!-- Set your background image for this header on the line below. -->
-    <header class="intro-header" style="background-image: url('assets/img/bean-bg2.jpg')">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <div class="site-heading">
-                        <h1>Baked-Bean</h1>
-                        <span class="subheading"><strong>A statistical analysis of baked beans</strong></span>
-						<span class="subheading">Variables range from price to viscosity and everything in-between!</span>
-                    </div>
-                </div>
-            </div>
+    <div class="container text-center my-4">
+        <div class="row p-4 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg" style="background-image: url('assets/img/bean-bg2.jpg'); background-size: cover;">
+          <div class="p-3 p-lg-5 pt-lg-3">
+            <h1 class="display-3 fw-bold lh-1 text-white text-shadow">Baked-Bean</h1>
+            <h4 class="text-white text-shadow">A statistical analysis of baked beans</h4>
+            <h4 class="text-white text-shadow">Variables range from price to viscosity and everything in-between!</h4>
+          </div>
         </div>
-    </header>
+    </div>
 
     <!-- Main Content -->
     <div class="container">
